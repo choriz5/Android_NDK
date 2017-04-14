@@ -14,7 +14,10 @@ public class MainActivity extends AppCompatActivity {
         NDKTest myNDK = new NDKTest();
         myNDK.ndkTestMethod("Hi");
 
+
         Log.d("NDKTEST",myNDK.getHelloNDKString());
 
+
+        //깃헙시험용 주석추가!!!
     }
 }
